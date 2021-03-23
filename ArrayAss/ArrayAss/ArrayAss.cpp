@@ -31,8 +31,8 @@ int main()
         if (inform[6] == ItoC(i))
         {
             cout << "성별 : " << gender[i - 1] << endl;
-            cout << "나이 : " << 2021 - (year[i] + (CtoI(inform[0]) * 10) + CtoI(inform[1])) + 1 << endl;
-            cout << "출생연도 : " << (year[i] + (CtoI(inform[0]) * 10) + CtoI(inform[1])) << endl;
+            cout << "나이 : " << 2021 - (year[i - 1] + (CtoI(inform[0]) * 10) + CtoI(inform[1])) + 1 << endl;
+            cout << "출생연도 : " << (year[i - 1] + (CtoI(inform[0]) * 10) + CtoI(inform[1])) << endl;
         }
     }
 
@@ -47,10 +47,10 @@ int main()
 
     if (inform[12] - 48 == (11 - ((CtoI(inform[0]) * 2 + CtoI(inform[1]) * 3 + CtoI(inform[2]) * 4 + CtoI(inform[3]) * 5 + CtoI(inform[4]) * 6 + CtoI(inform[5]) * 7 + CtoI(inform[6]) * 8 + CtoI(inform[7]) * 9 + CtoI(inform[8]) * 2 + CtoI(inform[9]) * 3 + CtoI(inform[10]) * 4 + CtoI(inform[11]) * 5) % 11)) % 10)
     {
-        cout << "주민등록번호 유효 여부 : 유효";
+        cout << "주민등록번호 유효 여부 : 유효" << endl;
     }
     else
     {
-        cout << "주민등록번호 유효 여부 : 무효";
+        cout << "주민등록번호 유효 여부 : 무효" << endl;
     }
 }

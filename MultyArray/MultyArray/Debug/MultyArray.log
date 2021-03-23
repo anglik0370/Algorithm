@@ -1,0 +1,4 @@
+﻿  MultyArray.cpp
+F:\.자료구조와알고리즘\ArrayLearning\MultyArray\MultyArray\MultyArray.cpp(8,12): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+F:\.자료구조와알고리즘\ArrayLearning\MultyArray\MultyArray\MultyArray.cpp(8,9): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  MultyArray.vcxproj -> F:\.자료구조와알고리즘\ArrayLearning\MultyArray\Debug\MultyArray.exe
