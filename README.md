@@ -1,1 +1,2 @@
-# My Algorithm Study
+# Algorithm
+My algorithm study!
